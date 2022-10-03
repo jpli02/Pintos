@@ -1,0 +1,16 @@
+FAIL
+Extracted file system contents are not correct.
+fs.tar exists in the file system but it should not.
+
+Actual contents of file system:
+child-syn-rw: 62828-byte file
+fs.tar: 194560-byte file
+logfile: 4096-byte file
+syn-rw: 56600-byte file
+tar: 67840-byte file
+
+Expected contents of file system:
+child-syn-rw: 62828-byte file
+logfile: 4096-byte file
+syn-rw: 56600-byte file
+tar: 67840-byte file

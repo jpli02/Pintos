@@ -1,0 +1,81 @@
+Copying tests/filesys/extended/grow-root-sm to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/ZsR3XylEAG.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run grow-root-sm
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  402,227,200 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 247 sectors (123 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'grow-root-sm' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'grow-root-sm':
+(grow-root-sm) begin
+(grow-root-sm) creating and checking "file0"
+(grow-root-sm) creating and checking "file1"
+(grow-root-sm) creating and checking "file2"
+(grow-root-sm) creating and checking "file3"
+(grow-root-sm) creating and checking "file4"
+(grow-root-sm) creating and checking "file5"
+(grow-root-sm) creating and checking "file6"
+(grow-root-sm) creating and checking "file7"
+(grow-root-sm) creating and checking "file8"
+(grow-root-sm) creating and checking "file9"
+(grow-root-sm) creating and checking "file10"
+(grow-root-sm) creating and checking "file11"
+(grow-root-sm) creating and checking "file12"
+(grow-root-sm) creating and checking "file13"
+(grow-root-sm) creating and checking "file14"
+(grow-root-sm) creating and checking "file15"
+(grow-root-sm) creating and checking "file16"
+(grow-root-sm) creating and checking "file17"
+(grow-root-sm) creating and checking "file18"
+(grow-root-sm) creating and checking "file19"
+(grow-root-sm) end
+grow-root-sm: exit(0)
+Execution of 'grow-root-sm' complete.
+Files in the root directory:
+grow-root-sm
+tar
+file0
+file1
+file2
+file3
+file4
+file5
+file6
+file7
+file8
+file9
+file10
+file11
+file12
+file13
+file14
+file15
+file16
+file17
+file18
+file19
+End of listing.
+Timer: 80 ticks
+Thread: 6 idle ticks, 67 kernel ticks, 7 user ticks
+hdb1 (filesys): 576 reads, 542 writes
+hda2 (scratch): 246 reads, 2 writes
+Console: 2130 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

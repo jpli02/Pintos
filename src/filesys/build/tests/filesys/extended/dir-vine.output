@@ -1,0 +1,125 @@
+Copying tests/filesys/extended/dir-vine to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/JzwfEgpvIX.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run dir-vine
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  401,817,600 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 254 sectors (127 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'dir-vine' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'dir-vine':
+(dir-vine) begin
+(dir-vine) creating many levels of files and directories...
+Kernel PANIC at ../../filesys/inode.c:431 in inode_allow_write(): assertion `inode->deny_write_cnt > 0' failed.
+Call stack: 0xc0029e16 0x6c615f65dir-vine: exit(-1)
+Kernel PANIC recursion at ../../threads/synch.c:197 in lock_acquire().
+Files in the root directory:
+dir-vine
+tar
+start
+End of listing.
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Simulation terminated due to kernel panic.

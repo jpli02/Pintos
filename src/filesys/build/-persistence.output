@@ -1,0 +1,1121 @@
+qemu-system-i386 -device isa-debug-exit -hda /tmp/2Vj94WTQQ4.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  402,636,800 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  400,179,200 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  399,769,600 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  400,179,200 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  401,817,600 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  403,046,400 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  402,636,800 loops/s.
+hda: 7,056 sectors (3 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 2,048 sectors (1 MB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+lock inited
+Kernel PANIC at ../../filesys/free-map.c:60 in free_map_open(): can't read free map
+Call stack: 0xc0029e16 0x70616d5fmain: exit(-1)
+Kernel PANIC recursion at ../../filesys/file.c:135 in file_allow_write().
+Files in the root directory:
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+End of listing.
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+Files in the root directory:
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  Simulation terminated due to kernel panic.

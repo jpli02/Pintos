@@ -1,0 +1,6 @@
+FAIL
+Kernel panic in run: PANIC at ../../filesys/inode.c:431 in inode_allow_write(): assertion `inode->deny_write_cnt > 0' failed.
+Call stack: 0xc0029e16 0x6c615f65d
+Translation of call stack:
+0xc0029e16: debug_panic (.../../lib/kernel/debug.c:38)
+0x6c615f65d: (unknown)

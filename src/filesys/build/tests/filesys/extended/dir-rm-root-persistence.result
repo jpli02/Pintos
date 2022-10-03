@@ -1,0 +1,14 @@
+FAIL
+Extracted file system contents are not correct.
+fs.tar exists in the file system but it should not.
+
+Actual contents of file system:
+a: 243-byte file
+dir-rm-root: 55592-byte file
+fs.tar: 126464-byte file
+tar: 67840-byte file
+
+Expected contents of file system:
+a: 243-byte file
+dir-rm-root: 55592-byte file
+tar: 67840-byte file

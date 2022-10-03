@@ -1,0 +1,404 @@
+FAIL
+Extracted file system contents are not correct.
+fs.tar exists in the file system but it should not.
+
+Actual contents of file system:
+0: directory
+0/0: directory
+0/0/0: directory
+0/0/0/0: 0-byte file
+0/0/0/1: 0-byte file
+0/0/0/2: 0-byte file
+0/0/0/3: 0-byte file
+0/0/1: directory
+0/0/1/0: 0-byte file
+0/0/1/1: 0-byte file
+0/0/1/2: 0-byte file
+0/0/1/3: 0-byte file
+0/0/2: directory
+0/0/2/0: 0-byte file
+0/0/2/1: 0-byte file
+0/0/2/2: 0-byte file
+0/0/2/3: 0-byte file
+0/1: directory
+0/1/0: directory
+0/1/0/0: 0-byte file
+0/1/0/1: 0-byte file
+0/1/0/2: 0-byte file
+0/1/0/3: 0-byte file
+0/1/1: directory
+0/1/1/0: 0-byte file
+0/1/1/1: 0-byte file
+0/1/1/2: 0-byte file
+0/1/1/3: 0-byte file
+0/1/2: directory
+0/1/2/0: 0-byte file
+0/1/2/1: 0-byte file
+0/1/2/2: 0-byte file
+0/1/2/3: 0-byte file
+0/2: directory
+0/2/0: directory
+0/2/0/0: 0-byte file
+0/2/0/1: 0-byte file
+0/2/0/2: 0-byte file
+0/2/0/3: 0-byte file
+0/2/1: directory
+0/2/1/0: 0-byte file
+0/2/1/1: 0-byte file
+0/2/1/2: 0-byte file
+0/2/1/3: 0-byte file
+0/2/2: directory
+0/2/2/0: 0-byte file
+0/2/2/1: 0-byte file
+0/2/2/2: 0-byte file
+0/2/2/3: 0-byte file
+1: directory
+1/0: directory
+1/0/0: directory
+1/0/0/0: 0-byte file
+1/0/0/1: 0-byte file
+1/0/0/2: 0-byte file
+1/0/0/3: 0-byte file
+1/0/1: directory
+1/0/1/0: 0-byte file
+1/0/1/1: 0-byte file
+1/0/1/2: 0-byte file
+1/0/1/3: 0-byte file
+1/0/2: directory
+1/0/2/0: 0-byte file
+1/0/2/1: 0-byte file
+1/0/2/2: 0-byte file
+1/0/2/3: 0-byte file
+1/1: directory
+1/1/0: directory
+1/1/0/0: 0-byte file
+1/1/0/1: 0-byte file
+1/1/0/2: 0-byte file
+1/1/0/3: 0-byte file
+1/1/1: directory
+1/1/1/0: 0-byte file
+1/1/1/1: 0-byte file
+1/1/1/2: 0-byte file
+1/1/1/3: 0-byte file
+1/1/2: directory
+1/1/2/0: 0-byte file
+1/1/2/1: 0-byte file
+1/1/2/2: 0-byte file
+1/1/2/3: 0-byte file
+1/2: directory
+1/2/0: directory
+1/2/0/0: 0-byte file
+1/2/0/1: 0-byte file
+1/2/0/2: 0-byte file
+1/2/0/3: 0-byte file
+1/2/1: directory
+1/2/1/0: 0-byte file
+1/2/1/1: 0-byte file
+1/2/1/2: 0-byte file
+1/2/1/3: 0-byte file
+1/2/2: directory
+1/2/2/0: 0-byte file
+1/2/2/1: 0-byte file
+1/2/2/2: 0-byte file
+1/2/2/3: 0-byte file
+2: directory
+2/0: directory
+2/0/0: directory
+2/0/0/0: 0-byte file
+2/0/0/1: 0-byte file
+2/0/0/2: 0-byte file
+2/0/0/3: 0-byte file
+2/0/1: directory
+2/0/1/0: 0-byte file
+2/0/1/1: 0-byte file
+2/0/1/2: 0-byte file
+2/0/1/3: 0-byte file
+2/0/2: directory
+2/0/2/0: 0-byte file
+2/0/2/1: 0-byte file
+2/0/2/2: 0-byte file
+2/0/2/3: 0-byte file
+2/1: directory
+2/1/0: directory
+2/1/0/0: 0-byte file
+2/1/0/1: 0-byte file
+2/1/0/2: 0-byte file
+2/1/0/3: 0-byte file
+2/1/1: directory
+2/1/1/0: 0-byte file
+2/1/1/1: 0-byte file
+2/1/1/2: 0-byte file
+2/1/1/3: 0-byte file
+2/1/2: directory
+2/1/2/0: 0-byte file
+2/1/2/1: 0-byte file
+2/1/2/2: 0-byte file
+2/1/2/3: 0-byte file
+2/2: directory
+2/2/0: directory
+2/2/0/0: 0-byte file
+2/2/0/1: 0-byte file
+2/2/0/2: 0-byte file
+2/2/0/3: 0-byte file
+2/2/1: directory
+2/2/1/0: 0-byte file
+2/2/1/1: 0-byte file
+2/2/1/2: 0-byte file
+2/2/1/3: 0-byte file
+2/2/2: directory
+2/2/2/0: 0-byte file
+2/2/2/1: 0-byte file
+2/2/2/2: 0-byte file
+2/2/2/3: 0-byte file
+3: directory
+3/0: directory
+3/0/0: directory
+3/0/0/0: 0-byte file
+3/0/0/1: 0-byte file
+3/0/0/2: 0-byte file
+3/0/0/3: 0-byte file
+3/0/1: directory
+3/0/1/0: 0-byte file
+3/0/1/1: 0-byte file
+3/0/1/2: 0-byte file
+3/0/1/3: 0-byte file
+3/0/2: directory
+3/0/2/0: 0-byte file
+3/0/2/1: 0-byte file
+3/0/2/2: 0-byte file
+3/0/2/3: 0-byte file
+3/1: directory
+3/1/0: directory
+3/1/0/0: 0-byte file
+3/1/0/1: 0-byte file
+3/1/0/2: 0-byte file
+3/1/0/3: 0-byte file
+3/1/1: directory
+3/1/1/0: 0-byte file
+3/1/1/1: 0-byte file
+3/1/1/2: 0-byte file
+3/1/1/3: 0-byte file
+3/1/2: directory
+3/1/2/0: 0-byte file
+3/1/2/1: 0-byte file
+3/1/2/2: 0-byte file
+3/1/2/3: 0-byte file
+3/2: directory
+3/2/0: directory
+3/2/0/0: 0-byte file
+3/2/0/1: 0-byte file
+3/2/0/2: 0-byte file
+3/2/0/3: 0-byte file
+3/2/1: directory
+3/2/1/0: 0-byte file
+3/2/1/1: 0-byte file
+3/2/1/2: 0-byte file
+3/2/1/3: 0-byte file
+3/2/2: directory
+3/2/2/0: 0-byte file
+3/2/2/1: 0-byte file
+3/2/2/2: 0-byte file
+3/2/2/3: 0-byte file
+dir-mk-tree: 58448-byte file
+fs.tar: 228864-byte file
+tar: 67840-byte file
+
+Expected contents of file system:
+0: directory
+0/0: directory
+0/0/0: directory
+0/0/0/0: 0-byte file
+0/0/0/1: 0-byte file
+0/0/0/2: 0-byte file
+0/0/0/3: 0-byte file
+0/0/1: directory
+0/0/1/0: 0-byte file
+0/0/1/1: 0-byte file
+0/0/1/2: 0-byte file
+0/0/1/3: 0-byte file
+0/0/2: directory
+0/0/2/0: 0-byte file
+0/0/2/1: 0-byte file
+0/0/2/2: 0-byte file
+0/0/2/3: 0-byte file
+0/1: directory
+0/1/0: directory
+0/1/0/0: 0-byte file
+0/1/0/1: 0-byte file
+0/1/0/2: 0-byte file
+0/1/0/3: 0-byte file
+0/1/1: directory
+0/1/1/0: 0-byte file
+0/1/1/1: 0-byte file
+0/1/1/2: 0-byte file
+0/1/1/3: 0-byte file
+0/1/2: directory
+0/1/2/0: 0-byte file
+0/1/2/1: 0-byte file
+0/1/2/2: 0-byte file
+0/1/2/3: 0-byte file
+0/2: directory
+0/2/0: directory
+0/2/0/0: 0-byte file
+0/2/0/1: 0-byte file
+0/2/0/2: 0-byte file
+0/2/0/3: 0-byte file
+0/2/1: directory
+0/2/1/0: 0-byte file
+0/2/1/1: 0-byte file
+0/2/1/2: 0-byte file
+0/2/1/3: 0-byte file
+0/2/2: directory
+0/2/2/0: 0-byte file
+0/2/2/1: 0-byte file
+0/2/2/2: 0-byte file
+0/2/2/3: 0-byte file
+1: directory
+1/0: directory
+1/0/0: directory
+1/0/0/0: 0-byte file
+1/0/0/1: 0-byte file
+1/0/0/2: 0-byte file
+1/0/0/3: 0-byte file
+1/0/1: directory
+1/0/1/0: 0-byte file
+1/0/1/1: 0-byte file
+1/0/1/2: 0-byte file
+1/0/1/3: 0-byte file
+1/0/2: directory
+1/0/2/0: 0-byte file
+1/0/2/1: 0-byte file
+1/0/2/2: 0-byte file
+1/0/2/3: 0-byte file
+1/1: directory
+1/1/0: directory
+1/1/0/0: 0-byte file
+1/1/0/1: 0-byte file
+1/1/0/2: 0-byte file
+1/1/0/3: 0-byte file
+1/1/1: directory
+1/1/1/0: 0-byte file
+1/1/1/1: 0-byte file
+1/1/1/2: 0-byte file
+1/1/1/3: 0-byte file
+1/1/2: directory
+1/1/2/0: 0-byte file
+1/1/2/1: 0-byte file
+1/1/2/2: 0-byte file
+1/1/2/3: 0-byte file
+1/2: directory
+1/2/0: directory
+1/2/0/0: 0-byte file
+1/2/0/1: 0-byte file
+1/2/0/2: 0-byte file
+1/2/0/3: 0-byte file
+1/2/1: directory
+1/2/1/0: 0-byte file
+1/2/1/1: 0-byte file
+1/2/1/2: 0-byte file
+1/2/1/3: 0-byte file
+1/2/2: directory
+1/2/2/0: 0-byte file
+1/2/2/1: 0-byte file
+1/2/2/2: 0-byte file
+1/2/2/3: 0-byte file
+2: directory
+2/0: directory
+2/0/0: directory
+2/0/0/0: 0-byte file
+2/0/0/1: 0-byte file
+2/0/0/2: 0-byte file
+2/0/0/3: 0-byte file
+2/0/1: directory
+2/0/1/0: 0-byte file
+2/0/1/1: 0-byte file
+2/0/1/2: 0-byte file
+2/0/1/3: 0-byte file
+2/0/2: directory
+2/0/2/0: 0-byte file
+2/0/2/1: 0-byte file
+2/0/2/2: 0-byte file
+2/0/2/3: 0-byte file
+2/1: directory
+2/1/0: directory
+2/1/0/0: 0-byte file
+2/1/0/1: 0-byte file
+2/1/0/2: 0-byte file
+2/1/0/3: 0-byte file
+2/1/1: directory
+2/1/1/0: 0-byte file
+2/1/1/1: 0-byte file
+2/1/1/2: 0-byte file
+2/1/1/3: 0-byte file
+2/1/2: directory
+2/1/2/0: 0-byte file
+2/1/2/1: 0-byte file
+2/1/2/2: 0-byte file
+2/1/2/3: 0-byte file
+2/2: directory
+2/2/0: directory
+2/2/0/0: 0-byte file
+2/2/0/1: 0-byte file
+2/2/0/2: 0-byte file
+2/2/0/3: 0-byte file
+2/2/1: directory
+2/2/1/0: 0-byte file
+2/2/1/1: 0-byte file
+2/2/1/2: 0-byte file
+2/2/1/3: 0-byte file
+2/2/2: directory
+2/2/2/0: 0-byte file
+2/2/2/1: 0-byte file
+2/2/2/2: 0-byte file
+2/2/2/3: 0-byte file
+3: directory
+3/0: directory
+3/0/0: directory
+3/0/0/0: 0-byte file
+3/0/0/1: 0-byte file
+3/0/0/2: 0-byte file
+3/0/0/3: 0-byte file
+3/0/1: directory
+3/0/1/0: 0-byte file
+3/0/1/1: 0-byte file
+3/0/1/2: 0-byte file
+3/0/1/3: 0-byte file
+3/0/2: directory
+3/0/2/0: 0-byte file
+3/0/2/1: 0-byte file
+3/0/2/2: 0-byte file
+3/0/2/3: 0-byte file
+3/1: directory
+3/1/0: directory
+3/1/0/0: 0-byte file
+3/1/0/1: 0-byte file
+3/1/0/2: 0-byte file
+3/1/0/3: 0-byte file
+3/1/1: directory
+3/1/1/0: 0-byte file
+3/1/1/1: 0-byte file
+3/1/1/2: 0-byte file
+3/1/1/3: 0-byte file
+3/1/2: directory
+3/1/2/0: 0-byte file
+3/1/2/1: 0-byte file
+3/1/2/2: 0-byte file
+3/1/2/3: 0-byte file
+3/2: directory
+3/2/0: directory
+3/2/0/0: 0-byte file
+3/2/0/1: 0-byte file
+3/2/0/2: 0-byte file
+3/2/0/3: 0-byte file
+3/2/1: directory
+3/2/1/0: 0-byte file
+3/2/1/1: 0-byte file
+3/2/1/2: 0-byte file
+3/2/1/3: 0-byte file
+3/2/2: directory
+3/2/2/0: 0-byte file
+3/2/2/1: 0-byte file
+3/2/2/2: 0-byte file
+3/2/2/3: 0-byte file
+dir-mk-tree: 58448-byte file
+tar: 67840-byte file

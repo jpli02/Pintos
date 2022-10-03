@@ -1,0 +1,36 @@
+squish-pty bochs -q
+PiLo hda1
+Loading............
+Kernel command line: -q -mlfqs run mlfqs-load-1
+Pintos booting with 4,096 kB RAM...
+383 pages available in kernel pool.
+383 pages available in user pool.
+Calibrating timer...  163,400 loops/s.
+Boot complete.
+Executing 'mlfqs-load-1':
+(mlfqs-load-1) begin
+(mlfqs-load-1) spinning for up to 45 seconds, please wait...
+(mlfqs-load-1) FAIL: load average stayed below 0.5 for more than 45 seconds
+Kernel PANIC at ../../tests/threads/tests.c:93 in fail(): test failed
+Call stack: 0xc0029bf6 0Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault Exception)
+Unexpected interrupt 0x0e (#PF Page-Fault ESimulation terminated due to kernel panic.

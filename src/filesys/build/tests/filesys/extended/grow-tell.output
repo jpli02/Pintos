@@ -1,0 +1,49 @@
+Copying tests/filesys/extended/grow-tell to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/nhVXBSKLTR.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run grow-tell
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  401,817,600 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 247 sectors (123 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'grow-tell' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'grow-tell':
+(grow-tell) begin
+(grow-tell) create "foobar"
+(grow-tell) open "foobar"
+(grow-tell) writing "foobar"
+(grow-tell) close "foobar"
+(grow-tell) open "foobar" for verification
+(grow-tell) verified contents of "foobar"
+(grow-tell) close "foobar"
+(grow-tell) end
+grow-tell: exit(0)
+Execution of 'grow-tell' complete.
+Files in the root directory:
+grow-tell
+tar
+foobar
+End of listing.
+Timer: 81 ticks
+Thread: 9 idle ticks, 70 kernel ticks, 2 user ticks
+hdb1 (filesys): 542 reads, 507 writes
+hda2 (scratch): 246 reads, 2 writes
+Console: 1295 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

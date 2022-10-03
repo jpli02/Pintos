@@ -1,0 +1,16 @@
+FAIL
+Extracted file system contents are not correct.
+fs.tar exists in the file system but it should not.
+
+Actual contents of file system:
+a: 8143-byte file
+b: 8143-byte file
+fs.tar: 145408-byte file
+grow-two-files: 57952-byte file
+tar: 67840-byte file
+
+Expected contents of file system:
+a: 8143-byte file
+b: 8143-byte file
+grow-two-files: 57952-byte file
+tar: 67840-byte file

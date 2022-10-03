@@ -1,0 +1,44 @@
+Copying tests/filesys/extended/dir-rm-root to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/meBVWjabcv.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run dir-rm-root
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  398,131,200 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 246 sectors (123 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'dir-rm-root' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'dir-rm-root':
+(dir-rm-root) begin
+(dir-rm-root) remove "/" (must fail)
+(dir-rm-root) create "/a"
+(dir-rm-root) end
+dir-rm-root: exit(0)
+Execution of 'dir-rm-root' complete.
+Files in the root directory:
+dir-rm-root
+tar
+a
+End of listing.
+Timer: 78 ticks
+Thread: 7 idle ticks, 70 kernel ticks, 1 user ticks
+hdb1 (filesys): 536 reads, 501 writes
+hda2 (scratch): 245 reads, 2 writes
+Console: 1147 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

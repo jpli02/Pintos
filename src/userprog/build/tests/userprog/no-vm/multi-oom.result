@@ -1,0 +1,7 @@
+FAIL
+Kernel panic in run: PANIC at ../../userprog/pagedir.c:130 in pagedir_get_page(): assertion `is_user_vaddr (uaddr)' failed.
+Call stack: 0xc0029e06 0x5f726964
+Translation of call stack:
+In kernel.o:
+0xc0029e06: debug_panic (.../../lib/kernel/debug.c:38)
+0x5f726964: (unknown)

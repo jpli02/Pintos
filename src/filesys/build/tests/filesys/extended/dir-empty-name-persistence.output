@@ -1,0 +1,35 @@
+qemu-system-i386 -device isa-debug-exit -hda /tmp/_1qzMgYumB.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q run 'tar fs.tar /' append fs.tar
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  402,227,200 loops/s.
+hda: 3,024 sectors (1 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 2,048 sectors (1 MB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Boot complete.
+Executing 'tar fs.tar /':
+tar: exit(0)
+Execution of 'tar fs.tar /' complete.
+Appending 'fs.tar' to ustar archive on scratch device...
+Files in the root directory:
+dir-empty-name
+tar
+fs.tar
+End of listing.
+Timer: 122 ticks
+Thread: 21 idle ticks, 64 kernel ticks, 38 user ticks
+hdb1 (filesys): 1799 reads, 766 writes
+hda2 (scratch): 0 reads, 496 writes
+Console: 908 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...
+Copying tests/filesys/extended/dir-empty-name.tar out of /tmp/_1qzMgYumB.dsk...

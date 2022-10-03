@@ -1,0 +1,33 @@
+Copying tests/userprog/no-vm/multi-oom to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/DGfH4MhlKa.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading............
+Kernel command line: -q -f extract run multi-oom
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  428,441,600 loops/s.
+hda: 5,040 sectors (2 MB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 197 sectors (98 kB), Pintos OS kernel (20)
+hda2: 4,096 sectors (2 MB), Pintos file system (21)
+hda3: 127 sectors (63 kB), Pintos scratch (22)
+filesys: using hda2
+scratch: using hda3
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'multi-oom' into the file system...
+Erasing ustar archive...
+Executing 'multi-oom':
+(multi-oom) begin
+Kernel PANIC at ../../userprog/pagedir.c:130 in pagedir_get_page(): assertion `is_user_vaddr (uaddr)' failed.
+Call stack: 0xc0029e06 0x5f726964multi-oom: exit(-1)
+Kernel PANIC recursion at ../../userprog/pagedir.c:130 in pagedir_get_page().
+Timer: 87 ticks
+Thread: 8 idle ticks, 63 kernel ticks, 16 user ticks
+hda2 (filesys): 1491 reads, 258 writes
+hda3 (scratch): 126 reads, 2 writes
+Console: 1059 characters output
+Keyboard: 0 keys pressed
+Exception: 1 page faults
+Powering off...

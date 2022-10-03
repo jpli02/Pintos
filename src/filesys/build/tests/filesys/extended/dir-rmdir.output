@@ -1,0 +1,44 @@
+Copying tests/filesys/extended/dir-rmdir to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/YORLJ0IxBT.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run dir-rmdir
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  401,817,600 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 246 sectors (123 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'dir-rmdir' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'dir-rmdir':
+(dir-rmdir) begin
+(dir-rmdir) mkdir "a"
+(dir-rmdir) rmdir "a"
+Kernel PANIC at ../../filesys/inode.c:258 in inode_close(): REACH HERE
+
+Call stack: 0xc0029e16 0x6c635f65dir-rmdir: exit(-1)
+Execution of 'dir-rmdir' complete.
+Files in the root directory:
+dir-rmdir
+tar
+End of listing.
+Timer: 74 ticks
+Thread: 4 idle ticks, 70 kernel ticks, 1 user ticks
+hdb1 (filesys): 535 reads, 500 writes
+hda2 (scratch): 245 reads, 2 writes
+Console: 1200 characters output
+Keyboard: 0 keys pressed
+Exception: 1 page faults
+Powering off...

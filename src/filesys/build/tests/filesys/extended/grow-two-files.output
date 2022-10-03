@@ -1,0 +1,56 @@
+Copying tests/filesys/extended/grow-two-files to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/qhyLC5yWel.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run grow-two-files
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  400,179,200 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 251 sectors (125 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'grow-two-files' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'grow-two-files':
+(grow-two-files) begin
+(grow-two-files) create "a"
+(grow-two-files) create "b"
+(grow-two-files) open "a"
+(grow-two-files) open "b"
+(grow-two-files) write "a" and "b" alternately
+(grow-two-files) close "a"
+(grow-two-files) close "b"
+(grow-two-files) open "a" for verification
+(grow-two-files) verified contents of "a"
+(grow-two-files) close "a"
+(grow-two-files) open "b" for verification
+(grow-two-files) verified contents of "b"
+(grow-two-files) close "b"
+(grow-two-files) end
+grow-two-files: exit(0)
+Execution of 'grow-two-files' complete.
+Files in the root directory:
+grow-two-files
+tar
+a
+b
+End of listing.
+Timer: 84 ticks
+Thread: 12 idle ticks, 68 kernel ticks, 4 user ticks
+hdb1 (filesys): 581 reads, 545 writes
+hda2 (scratch): 250 reads, 2 writes
+Console: 1544 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

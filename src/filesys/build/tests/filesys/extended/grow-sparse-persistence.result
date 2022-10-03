@@ -1,0 +1,14 @@
+FAIL
+Extracted file system contents are not correct.
+fs.tar exists in the file system but it should not.
+
+Actual contents of file system:
+fs.tar: 203776-byte file
+grow-sparse: 56356-byte file
+tar: 67840-byte file
+testfile: 76543-byte file
+
+Expected contents of file system:
+grow-sparse: 56356-byte file
+tar: 67840-byte file
+testfile: 76543-byte file

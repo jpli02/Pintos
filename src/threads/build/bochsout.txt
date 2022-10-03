@@ -1,0 +1,660 @@
+00000000000i[     ] Bochs x86 Emulator 2.6.2
+00000000000i[     ]   Built from SVN snapshot on May 26, 2013
+00000000000i[     ] Compiled on Aug 12 2019 at 14:06:16
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ] IPS is set to 1000000
+00000000000i[     ] CPU configuration
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   level: 6
+00000000000i[     ]   APIC support: xapic
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   SEP support: yes
+00000000000i[     ]   SSE support: sse2
+00000000000i[     ]   XSAVE support: no 
+00000000000i[     ]   AES support: no
+00000000000i[     ]   MOVBE support: no
+00000000000i[     ]   ADX support: no
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   MWAIT support: yes
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ]   Handlers Chaining speedups: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: no
+00000000000i[     ]   PCI support: yes, enabled=yes
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe
+00000000000i[MEM0 ] allocated memory at 0x7fcb9a87d010. after alignment, vector=0x7fcb9a87e000
+00000000000i[MEM0 ] 4.00MB
+00000000000i[MEM0 ] mem block size = 0x00100000, blocks=4
+00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('/usr/local/share/bochs/BIOS-bochs-latest')
+00000000000i[     ] init_dev of 'pci' plugin device by virtual method
+00000000000i[DEV  ] i440FX PMC present at device 0, function 0
+00000000000i[     ] init_dev of 'pci2isa' plugin device by virtual method
+00000000000i[DEV  ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000i[     ] init_dev of 'cmos' plugin device by virtual method
+00000000000i[CMOS ] Using specified time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Thu Jan  1 00:00:00 1970 (time0=0)
+00000000000i[     ] init_dev of 'dma' plugin device by virtual method
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[     ] init_dev of 'pic' plugin device by virtual method
+00000000000i[     ] init_dev of 'pit' plugin device by virtual method
+00000000000i[     ] init_dev of 'floppy' plugin device by virtual method
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[     ] init_dev of 'vga' plugin device by virtual method
+00000000000i[MEM0 ] Register memory access handlers: 0x0000000a0000 - 0x0000000bffff
+00000000000i[VGA  ] interval=200000
+00000000000i[MEM0 ] Register memory access handlers: 0x0000e0000000 - 0x0000e0ffffff
+00000000000i[BXVGA] VBE Bochs Display Extension Enabled
+00000000000i[MEM0 ] rom at 0xc0000/41472 ('/usr/local/share/bochs/VGABIOS-lgpl-latest')
+00000000000i[     ] init_dev of 'acpi' plugin device by virtual method
+00000000000i[DEV  ] ACPI Controller present at device 1, function 3
+00000000000i[     ] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAP ] initializing I/O APIC
+00000000000i[MEM0 ] Register memory access handlers: 0x0000fec00000 - 0x0000fec00fff
+00000000000i[IOAP ] IOAPIC enabled (base address = 0xfec00000)
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 400 keyboard ticks
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] HD on ata0-0: '/tmp/nSPG6FbCTK.dsk', 'flat' mode
+00000000000i[IMG  ] hd_size: 516096
+00000000000i[HD   ] ata0-0: using specified geometry: CHS=1/16/63
+00000000000i[HD   ] Using boot sequence disk, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'pci_ide' plugin device by virtual method
+00000000000i[DEV  ] PIIX3 PCI IDE controller present at device 1, function 1
+00000000000i[     ] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[     ] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] register state of 'pci' plugin device by virtual method
+00000000000i[     ] register state of 'pci2isa' plugin device by virtual method
+00000000000i[     ] register state of 'cmos' plugin device by virtual method
+00000000000i[     ] register state of 'dma' plugin device by virtual method
+00000000000i[     ] register state of 'pic' plugin device by virtual method
+00000000000i[     ] register state of 'pit' plugin device by virtual method
+00000000000i[     ] register state of 'floppy' plugin device by virtual method
+00000000000i[     ] register state of 'vga' plugin device by virtual method
+00000000000i[     ] register state of 'unmapped' plugin device by virtual method
+00000000000i[     ] register state of 'biosdev' plugin device by virtual method
+00000000000i[     ] register state of 'speaker' plugin device by virtual method
+00000000000i[     ] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] register state of 'parallel' plugin device by virtual method
+00000000000i[     ] register state of 'serial' plugin device by virtual method
+00000000000i[     ] register state of 'acpi' plugin device by virtual method
+00000000000i[     ] register state of 'ioapic' plugin device by virtual method
+00000000000i[     ] register state of 'keyboard' plugin device by virtual method
+00000000000i[     ] register state of 'harddrv' plugin device by virtual method
+00000000000i[     ] register state of 'pci_ide' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0 ] cpu hardware reset
+00000000000i[APIC0] allocate APIC id=0 (MMIO enabled) to 0x0000fee00000
+00000000000i[CPU0 ] CPUID[0x00000000]: 00000005 756e6547 6c65746e 49656e69
+00000000000i[CPU0 ] CPUID[0x00000001]: 00000633 00010800 00000008 1fcbfbff
+00000000000i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000004]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000005]: 00000040 00000040 00000003 00000020
+00000000000i[CPU0 ] CPUID[0x80000000]: 80000008 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000000000i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000000000i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000000000i[CPU0 ] CPUID[0x80000005]: 01ff01ff 01ff01ff 40020140 40020140
+00000000000i[CPU0 ] CPUID[0x80000006]: 00000000 42004200 02008140 00000000
+00000000000i[CPU0 ] CPUID[0x80000007]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000008]: 00002028 00000000 00000000 00000000
+00000000000i[     ] reset of 'pci' plugin device by virtual method
+00000000000i[     ] reset of 'pci2isa' plugin device by virtual method
+00000000000i[     ] reset of 'cmos' plugin device by virtual method
+00000000000i[     ] reset of 'dma' plugin device by virtual method
+00000000000i[     ] reset of 'pic' plugin device by virtual method
+00000000000i[     ] reset of 'pit' plugin device by virtual method
+00000000000i[     ] reset of 'floppy' plugin device by virtual method
+00000000000i[     ] reset of 'vga' plugin device by virtual method
+00000000000i[     ] reset of 'acpi' plugin device by virtual method
+00000000000i[     ] reset of 'ioapic' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'pci_ide' plugin device by virtual method
+00000000000i[     ] reset of 'unmapped' plugin device by virtual method
+00000000000i[     ] reset of 'biosdev' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000000000e[SPEAK] Failed to open /dev/console: Permission denied
+00000000000e[SPEAK] Deactivating beep on console
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000025i[MEM0 ] allocate_block: block=0x0 used 0x1 of 0x4
+00000004661i[BIOS ] $Revision: 11545 $ $Date: 2012-11-11 09:11:17 +0100 (So, 11. Nov 2012) $
+00000317041i[KBD  ] reset-disable command received
+00000318331i[BIOS ] Starting rombios32
+00000318765i[BIOS ] Shutdown flag 0
+00000319348i[BIOS ] ram_size=0x00400000
+00000319746i[BIOS ] ram_end=4MB
+00000330593i[BIOS ] Found 1 cpu(s)
+00000344780i[BIOS ] bios_table_addr: 0x000fa448 end=0x000fcc00
+00000672577i[PCI  ] i440FX PMC write to PAM register 59 (TLB Flush)
+00001000504i[P2I  ] PCI IRQ routing: PIRQA# set to 0x0b
+00001000523i[P2I  ] PCI IRQ routing: PIRQB# set to 0x09
+00001000542i[P2I  ] PCI IRQ routing: PIRQC# set to 0x0b
+00001000561i[P2I  ] PCI IRQ routing: PIRQD# set to 0x09
+00001000571i[P2I  ] write: ELCR2 = 0x0a
+00001001337i[BIOS ] PIIX3/PIIX4 init: elcr=00 0a
+00001009010i[BIOS ] PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237 class=0x0600
+00001011280i[BIOS ] PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000 class=0x0601
+00001013389i[BIOS ] PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010 class=0x0101
+00001013618i[PIDE ] new BM-DMA address: 0xc000
+00001014235i[BIOS ] region 4: 0x0000c000
+00001016260i[BIOS ] PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113 class=0x0680
+00001016493i[ACPI ] new irq line = 11
+00001016505i[ACPI ] new irq line = 9
+00001016534i[ACPI ] new PM base address: 0xb000
+00001016548i[ACPI ] new SM base address: 0xb100
+00001016576i[PCI  ] setting SMRAM control register to 0x4a
+00001180667i[CPU0 ] Enter to System Management Mode
+00001180678i[CPU0 ] RSM: Resuming from System Management Mode
+00001344696i[PCI  ] setting SMRAM control register to 0x0a
+00001359589i[BIOS ] MP table addr=0x000fa520 MPC table addr=0x000fa450 size=0xc8
+00001361345i[BIOS ] SMBIOS table addr=0x000fa530
+00001361403i[MEM0 ] allocate_block: block=0x3 used 0x2 of 0x4
+00001363527i[BIOS ] ACPI tables: RSDP addr=0x000fa650 ACPI DATA addr=0x003f0000 size=0xf72
+00001366701i[BIOS ] Firmware waking vector 0x3f00cc
+00001368499i[PCI  ] i440FX PMC write to PAM register 59 (TLB Flush)
+00001369227i[BIOS ] bios_table_cur_addr: 0x000fa674
+00001496844i[VBIOS] VGABios $Id: vgabios.c,v 1.75 2011/10/15 14:07:21 vruppert Exp $
+00001496915i[BXVGA] VBE known Display Interface b0c0
+00001496947i[BXVGA] VBE known Display Interface b0c5
+00001499872i[VBIOS] VBE Bios $Id: vbe.c,v 1.64 2011/07/19 18:25:05 vruppert Exp $
+00001839180i[BIOS ] ata0-0: PCHS=1/16/63 translation=none LCHS=1/16/63
+00005717573i[BIOS ] IDE time out
+00008761641i[BIOS ] Booting from 0000:7c00
+00009178380i[MEM0 ] allocate_block: block=0x1 used 0x3 of 0x4
+00009221842i[MEM0 ] allocate_block: block=0x2 used 0x4 of 0x4
+00040375025p[ACPI ] >>PANIC<< ACPI control: soft power off
+00040375025i[CPU0 ] CPU is in protected mode (active)
+00040375025i[CPU0 ] CS.mode = 32 bit
+00040375025i[CPU0 ] SS.mode = 32 bit
+00040375025i[CPU0 ] EFER   = 0x00000000
+00040375025i[CPU0 ] | EAX=00002000  EBX=c0037a8c  ECX=c00382b0  EDX=ffffb004
+00040375025i[CPU0 ] | ESP=c000ef50  EBP=c000eff8  ESI=c0037aa0  EDI=c0038170
+00040375025i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df IF tf SF zf af pf cf
+00040375025i[CPU0 ] | SEG sltr(index|ti|rpl)     b01044783470i[NGUI ] ips = 63.564M
+01107840977i[NGUI ] ips = 63.058M
+01170918929i[NGUI ] ips = 63.078M
+01234243785i[NGUI ] ips = 63.325M
+01297583283i[NGUI ] ips = 63.339M
+01360943530i[NGUI ] ips = 63.360M
+01424329989i[NGUI ] ips = 63.386M
+01487539397i[NGUI ] ips = 63.209M
+01550912419i[NGUI ] ips = 63.373M
+01613551669i[NGUI ] ips = 62.639M
+01676933169i[NGUI ] ips = 63.382M
+01740364876i[NGUI ] ips = 63.432M
+01803297173i[NGUI ] ips = 62.932M
+01866299070i[NGUI ] ips = 63.002M
+01928968289i[NGUI ] ips = 62.669M
+01992158236i[NGUI ] ips = 63.190M
+02055447013i[NGUI ] ips = 63.289M
+02116053765i[NGUI ] ips = 60.607M
+02179059230i[NGUI ] ips = 63.005M
+02241517536i[NGUI ] ips = 62.458M
+02304767740i[NGUI ] ips = 63.250M
+02368079615i[NGUI ] ips = 63.312M
+02431444593i[NGUI ] ips = 63.365M
+02494774327i[NGUI ] ips = 63.330M
+02558095736i[NGUI ] ips = 63.321M
+02620889983i[NGUI ] ips = 62.794M
+02683537119i[NGUI ] ips = 62.647M
+02746663427i[NGUI ] ips = 63.126M
+02809717952i[NGUI ] ips = 63.055M
+02872809993i[NGUI ] ips = 63.092M
+02936094809i[NGUI ] ips = 63.285M
+02999297824i[NGUI ] ips = 63.203M
+03062630159i[NGUI ] ips = 63.332M
+03124573687i[NGUI ] ips = 61.944M
+03186273864i[NGUI ] ips = 61.700M
+03249586682i[NGUI ] ips = 63.313M
+03312989835i[NGUI ] ips = 63.403M
+03376305724i[NGUI ] ips = 63.316M
+03439449686i[NGUI ] ips = 63.144M
+03502918534i[NGUI ] ips = 63.469M
+03566383906i[NGUI ] ips = 63.465M
+03629312425i[NGUI ] ips = 62.929M
+03691456507i[NGUI ] ips = 62.144M
+03754918750i[NGUI ] ips = 63.462M
+03818006391i[NGUI ] ips = 63.088M
+03881232957i[NGUI ] ips = 63.227M
+03944633295i[NGUI ] ips = 63.400M
+04007990892i[NGUI ] ips = 63.358M
+04071400212i[NGUI ] ips = 63.409M
+04134392440i[NGUI ] ips = 62.992M
+04195106591i[NGUI ] ips = 60.714M
+04256310361i[NGUI ] ips = 61.204M
+04318120755i[NGUI ] ips = 61.810M
+04378350404i[NGUI ] ips = 60.230M
+04438890425i[NGUI ] ips = 60.540M
+04501476928i[NGUI ] ips = 62.587M
+04564626573i[NGUI ] ips = 63.150M
+04627818181i[NGUI ] ips = 63.192M
+04690287303i[NGUI ] ips = 62.469M
+04753577305i[NGUI ] ips = 63.290M
+04816954926i[NGUI ] ips = 63.378M
+04880291198i[NGUI ] ips = 63.336M
+04943730023i[NGUI ] ips = 63.439M
+05007072606i[NGUI ] ips = 63.343M
+05070449980i[NGUI ] ips = 63.377M
+05133622312i[NGUI ] ips = 63.172M
+05196427415i[NGUI ] ips = 62.805M
+05259546500i[NGUI ] ips = 63.119M
+05322170320i[NGUI ] ips = 62.624M
+05385264636i[NGUI ] ips = 63.094M
+05448532372i[NGUI ] ips = 63.268M
+05511690017i[NGUI ] ips = 63.158M
+05574975436i[NGUI ] ips = 63.285M
+05638403276i[NGUI ] ips = 63.428M
+05701392723i[NGUI ] ips = 62.989M
+05764792000i[NGUI ] ips = 63.399M
+05828081414i[NGUI ] ips = 63.289M
+05891496193i[NGUI ] ips = 63.415M
+05955038796i[NGUI ] ips = 63.543M
+06018599511i[NGUI ] ips = 63.561M
+06082153887i[NGUI ] ips = 63.554M
+06145684894i[NGUI ] ips = 63.531M
+06208927778i[NGUI ] ips = 63.243M
+06272400708i[NGUI ] ips = 63.473M
+06335597724i[NGUI ] ips = 63.197M
+06398792458i[NGUI ] ips = 63.195M
+06458263360i[NGUI ] ips = 59.471M
+06517855710i[NGUI ] ips = 59.592M
+06580905018i[NGUI ] ips = 63.049M
+06643965171i[NGUI ] ips = 63.060M
+06707110013i[NGUI ] ips = 63.145M
+06769409773i[NGUI ] ips = 62.300M
+06830353962i[NGUI ] ips = 60.944M
+06892329776i[NGUI ] ips = 61.976M
+06953750736i[NGUI ] ips = 61.421M
+07016276883i[NGUI ] ips = 62.526M
+07079277397i[NGUI ] ips = 63.001M
+07142433190i[NGUI ] ips = 63.156M
+07205697572i[NGUI ] ips = 63.264M
+07268970200i[NGUI ] ips = 63.273M
+07330992170i[NGUI ] ips = 62.022M
+07394068623i[NGUI ] ips = 63.076M
+07455111463i[NGUI ] ips = 61.043M
+07514554410i[NGUI ] ips = 59.443M
+07575482009i[NGUI ] ips = 60.928M
+07638538764i[NGUI ] ips = 63.057M
+07701287009i[NGUI ] ips = 62.748M
+07760282067i[NGUI ] ips = 58.995M
+07819573682i[NGUI ] ips = 59.292M
+07882071675i[NGUI ] ips = 62.498M
+07945327044i[NGUI ] ips = 63.255M
+08008636492i[NGUI ] ips = 63.309M
+08072191716i[NGUI ] ips = 63.555M
+08135324884i[NGUI ] ips = 63.133M
+08198094610i[NGUI ] ips = 62.770M
+08261385108i[NGUI ] ips = 63.290M
+08324797000i[NGUI ] ips = 63.412M
+08388177710i[NGUI ] ips = 63.381M
+08451651141i[NGUI ] ips = 63.473M
+08515115236i[NGUI ] ips = 63.464M
+08578715349i[NGUI ] ips = 63.600M
+08642038618i[NGUI ] ips = 63.323M
+08705577906i[NGUI ] ips = 63.539M
+08768815940i[NGUI ] ips = 63.238M
+08832245571i[NGUI ] ips = 63.430M
+08895668327i[NGUI ] ips = 63.423M
+08959105008i[NGUI ] ips = 63.437M
+09022508647i[NGUI ] ips = 63.404M
+09085702100i[NGUI ] ips = 63.193M
+09148993672i[NGUI ] ips = 63.292M
+09212488866i[NGUI ] ips = 63.495M
+09275665432i[NGUI ] ips = 63.177M
+09339196022i[NGUI ] ips = 63.531M
+09402611971i[NGUI ] ips = 63.416M
+09465926388i[NGUI ] ips = 63.314M
+09529321049i[NGUI ] ips = 63.395M
+09592651678i[NGUI ] ips = 63.331M
+09656214341i[NGUI ] ips = 63.563M
+09719779406i[NGUI ] ips = 63.565M
+09779522806i[NGUI ] ips = 59.743M
+09841775676i[NGUI ] ips = 62.253M
+09904136097i[NGUI ] ips = 62.360M
+09967527363i[NGUI ] ips = 63.391M
+10030702409i[NGUI ] ips = 63.175M
+10094264510i[NGUI ] ips = 63.562M
+10157654826i[NGUI ] ips = 63.390M
+10221042993i[NGUI ] ips = 63.388M
+10282525502i[NGUI ] ips = 61.483M
+10345629105i[NGUI ] ips = 63.104M
+10408768681i[NGUI ] ips = 63.140M
+10471983809i[NGUI ] ips = 63.215M
+10535052815i[NGUI ] ips = 63.069M
+10598174522i[NGUI ] ips = 63.122M
+10661274313i[NGUI ] ips = 63.100M
+10724585703i[NGUI ] ips = 63.311M
+10787399429i[NGUI ] ips = 62.814M
+10850729766i[NGUI ] ips = 63.330M
+10913817747i[NGUI ] ips = 63.088M
+10977023983i[NGUI ] ips = 63.206M
+11040099484i[NGUI ] ips = 63.076M
+11103203639i[NGUI ] ips = 63.104M
+11166435084i[NGUI ] ips = 63.231M
+11229877457i[NGUI ] ips = 63.442M
+11292912792i[NGUI ] ips = 63.035M
+11356017100i[NGUI ] ips = 63.104M
+11417238440i[NGUI ] ips = 61.221M
+11479152034i[NGUI ] ips = 61.914M
+11539494858i[NGUI ] ips = 60.343M
+11601376357i[NGUI ] ips = 61.881M
+11661582264i[NGUI ] ips = 60.206M
+11706714476i[NGUI ] ips = 45.132M
+11761241871i[NGUI ] ips = 54.527M
+11822214450i[NGUI ] ips = 60.973M
+11884872886i[NGUI ] ips = 62.658M
+11947187024i[NGUI ] ips = 62.314M
+12009380608i[NGUI ] ips = 62.194M
+12071905726i[NGUI ] ips = 62.525M
+12133230428i[NGUI ] ips = 61.325M
+12193868878i[NGUI ] ips = 60.638M
+12252120268i[NGUI ] ips = 58.251M
+12311231246i[NGUI ] ips = 59.111M
+12373495490i[NGUI ] ips = 62.264M
+12431549522i[NGUI ] ips = 58.054M
+12492275042i[NGUI ] ips = 60.726M
+12551964440i[NGUI ] ips = 59.689M
+12612763750i[NGUI ] ips = 60.799M
+12673013816i[NGUI ] ips = 60.250M
+12733624702i[NGUI ] ips = 60.611M
+12794586397i[NGUI ] ips = 60.962M
+12856382308i[NGUI ] ips = 61.796M
+12918279200i[NGUI ] ips = 61.897M
+12980081931i[NGUI ] ips = 61.803M
+13040996709i[NGUI ] ips = 60.915M
+13095074176i[NGUI ] ips = 54.077M
+13149923708i[NGUI ] ips = 54.850M
+13211658395i[NGUI ] ips = 61.735M
+13272054972i[NGUI ] ips = 60.397M
+13333535389i[NGUI ] ips = 61.480M
+13395202206i[NGUI ] ips = 61.667M
+13457026137i[NGUI ] ips = 61.824M
+13518338565i[NGUI ] ips = 61.312M
+13576131438i[NGUI ] ips = 57.793M
+13627888475i[NGUI ] ips = 51.757M
+13685519571i[NGUI ] ips = 57.631M
+13744489668i[NGUI ] ips = 58.970M
+13803821135i[NGUI ] ips = 59.331M
+13861799078i[NGUI ] ips = 57.978M
+13922334469i[NGUI ] ips = 60.535M
+13985514430i[NGUI ] ips = 63.180M
+14048747665i[NGUI ] ips = 63.233M
+14109747934i[NGUI ] ips = 61.000M
+14172847961i[NGUI ] ips = 63.100M
+14235752714i[NGUI ] ips = 62.905M
+14298606294i[NGUI ] ips = 62.854M
+14360211645i[NGUI ] ips = 61.605M
+14423389796i[NGUI ] ips = 63.178M
+14483424938i[NGUI ] ips = 60.035M
+14545293619i[NGUI ] ips = 61.869M
+14606743272i[NGUI ] ips = 61.450M
+14667636407i[NGUI ] ips = 60.893M
+14730808203i[NGUI ] ips = 63.172M
+14794252390i[NGUI ] ips = 63.444M
+14856314214i[NGUI ] ips = 62.062M
+14919087753i[NGUI ] ips = 62.774M
+14980814444i[NGUI ] ips = 61.727M
+15044382054i[NGUI ] ips = 63.568M
+15107822951i[NGUI ] ips = 63.441M
+15170250176i[NGUI ] ips = 62.427M
+15232709733i[NGUI ] ips = 62.460M
+15296015366i[NGUI ] ips = 63.306M
+15358680825i[NGUI ] ips = 62.665M
+15419523374i[NGUI ] ips = 60.843M
+15482896466i[NGUI ] ips = 63.373M
+15545741673i[NGUI ] ips = 62.845M
+15608928600i[NGUI ] ips = 63.187M
+15670906515i[NGUI ] ips = 61.978M
+15732937968i[NGUI ] ips = 62.031M
+15795825250i[NGUI ] ips = 62.887M
+15857365218i[NGUI ] ips = 61.540M
+15919441009i[NGUI ] ips = 62.076M
+15981160326i[NGUI ] ips = 61.719M
+16044425500i[NGUI ] ips = 63.265M
+16107243849i[NGUI ] ips = 62.818M
+16170272515i[NGUI ] ips = 63.029M
+16233213806i[NGUI ] ips = 62.941M
+16296336114i[NGUI ] ips = 63.122M
+16359733598i[NGUI ] ips = 63.397M
+16422935151i[NGUI ] ips = 63.202M
+16486153243i[NGUI ] ips = 63.218M
+16549654477i[NGUI ] ips = 63.501M
+16613158362i[NGUI ] ips = 63.504M
+16676519031i[NGUI ] ips = 63.361M
+16740090907i[NGUI ] ips = 63.572M
+16803611464i[NGUI ] ips = 63.521M
+16866764733i[NGUI ] ips = 63.153M
+16927447227i[NGUI ] ips = 60.682M
+16989798570i[NGUI ] ips = 62.351M
+17053263266i[NGUI ] ips = 63.465M
+17116806960i[NGUI ] ips = 63.544M
+17178667920i[NGUI ] ips = 61.861M
+17241781442i[NGUI ] ips = 63.114M
+17304582777i[NGUI ] ips = 62.801M
+17367325847i[NGUI ] ips = 62.743M
+17430471850i[NGUI ] ips = 63.146M
+17493540675i[NGUI ] ips = 63.069M
+17556233276i[NGUI ] ips = 62.693M
+17619471214i[NGUI ] ips = 63.238M
+17682619844i[NGUI ] ips = 63.149M
+17745666310i[NGUI ] ips = 63.046M
+17808501889i[NGUI ] ips = 62.836M
+17872004956i[NGUI ] ips = 63.503M
+17935471676i[NGUI ] ips = 63.467M
+17998135711i[NGUI ] ips = 62.664M
+18060128970i[NGUI ] ips = 61.993M
+18123160383i[NGUI ] ips = 63.031M
+18186506442i[NGUI ] ips = 63.346M
+18249876777i[NGUI ] ips = 63.370M
+18312864519i[NGUI ] ips = 62.988M
+18376253471i[NGUI ] ips = 63.389M
+18439512069i[NGUI ] ips = 63.259M
+18502998111i[NGUI ] ips = 63.486M
+18566265159i[NGUI ] ips = 63.267M
+18629714810i[NGUI ] ips = 63.450M
+18693106043i[NGUI ] ips = 63.391M
+18756720542i[NGUI ] ips = 63.614M
+18819443381i[NGUI ] ips = 62.723M
+18882750012i[NGUI ] ips = 63.307M
+18946050684i[NGUI ] ips = 63.301M
+19009596983i[NGUI ] ips = 63.546M
+19072713040i[NGUI ] ips = 63.116M
+19136049823i[NGUI ] ips = 63.337M
+19199467442i[NGUI ] ips = 63.418M
+19262932952i[NGUI ] ips = 63.466M
+19326046907i[NGUI ] ips = 63.114M
+19389213492i[NGUI ] ips = 63.167M
+19452586110i[NGUI ] ips = 63.373M
+19515869509i[NGUI ] ips = 63.283M
+19579392703i[NGUI ] ips = 63.523M
+19642842153i[NGUI ] ips = 63.449M
+19705900848i[NGUI ] ips = 63.059M
+19769369944i[NGUI ] ips = 63.469M
+19828013154i[NGUI ] ips = 58.643M
+19891400141i[NGUI ] ips = 63.387M
+19954599084i[NGUI ] ips = 63.199M
+20017842404i[NGUI ] ips = 63.243M
+20081273521i[NGUI ] ips = 63.431M
+20144421387i[NGUI ] ips = 63.148M
+20207708869i[NGUI ] ips = 63.287M
+20270548141i[NGUI ] ips = 62.839M
+20333464359i[NGUI ] ips = 62.916M
+20396564233i[NGUI ] ips = 63.100M
+20458386320i[NGUI ] ips = 61.822M
+20521416146i[NGUI ] ips = 63.030M
+20584674314i[NGUI ] ips = 63.258M
+20647854768i[NGUI ] ips = 63.180M
+20711090332i[NGUI ] ips = 63.236M
+20774123084i[NGUI ] ips = 63.033M
+20836789414i[NGUI ] ips = 62.666M
+20899796775i[NGUI ] ips = 63.007M
+20962818780i[NGUI ] ips = 63.022M
+21026149220i[NGUI ] ips = 63.330M
+21089361632i[NGUI ] ips = 63.212M
+21152284289i[NGUI ] ips = 62.923M
+21215440126i[NGUI ] ips = 63.156M
+21278363088i[NGUI ] ips = 62.923M
+21341149389i[NGUI ] ips = 62.786M
+21404406470i[NGUI ] ips = 63.257M
+21467741371i[NGUI ] ips = 63.335M
+21530983891i[NGUI ] ips = 63.243M
+21594267112i[NGUI ] ips = 63.283M
+21657604750i[NGUI ] ips = 63.338M
+21720840172i[NGUI ] ips = 63.235M
+21784153696i[NGUI ] ips = 63.314M
+21846895175i[NGUI ] ips = 62.741M
+21910076495i[NGUI ] ips = 63.181M
+21973047587i[NGUI ] ips = 62.971M
+22036311120i[NGUI ] ips = 63.264M
+22099693053i[NGUI ] ips = 63.382M
+22163192701i[NGUI ] ips = 63.500M
+22226685708i[NGUI ] ips = 63.493M
+22290235940i[NGUI ] ips = 63.550M
+22353256986i[NGUI ] ips = 63.021M
+22416607027i[NGUI ] ips = 63.350M
+22479791986i[NGUI ] ips = 63.185M
+22543179575i[NGUI ] ips = 63.388M
+22606608074i[NGUI ] ips = 63.428M
+22670069451i[NGUI ] ips = 63.461M
+22733663725i[NGUI ] ips = 63.594M
+22797274640i[NGUI ] ips = 63.611M
+22860727824i[NGUI ] ips = 63.453M
+22923269447i[NGUI ] ips = 62.542M
+22986370741i[NGUI ] ips = 63.101M
+23049801490i[NGUI ] ips = 63.431M
+23113366299i[NGUI ] ips = 63.565M
+23176523673i[NGUI ] ips = 63.157M
+23239853068i[NGUI ] ips = 63.329M
+23302747982i[NGUI ] ips = 62.895M
+23366121119i[NGUI ] ips = 63.373M
+23428961977i[NGUI ] ips = 62.841M
+23491957554i[NGUI ] ips = 62.996M
+23553761739i[NGUI ] ips = 61.804M
+23616627434i[NGUI ] ips = 62.866M
+23679884215i[NGUI ] ips = 63.257M
+23742657527i[NGUI ] ips = 62.773M
+23805833092i[NGUI ] ips = 63.176M
+23869180032i[NGUI ] ips = 63.347M
+23932277122i[NGUI ] ips = 63.097M
+23995832241i[NGUI ] ips = 63.555M
+24059412708i[NGUI ] ips = 63.580M
+24122942311i[NGUI ] ips = 63.530M
+24186454915i[NGUI ] ips = 63.513M
+24249977285i[NGUI ] ips = 63.522M
+24313575311i[NGUI ] ips = 63.598M
+24377123895i[NGUI ] ips = 63.549M
+24440154218i[NGUI ] ips = 63.030M
+24503516335i[NGUI ] ips = 63.362M
+24567046644i[NGUI ] ips = 63.530M
+24630529545i[NGUI ] ips = 63.483M
+24694120399i[NGUI ] ips = 63.591M
+24757569500i[NGUI ] ips = 63.449M
+24821118855i[NGUI ] ips = 63.549M
+24884350766i[NGUI ] ips = 63.232M
+24947692471i[NGUI ] ips = 63.342M
+25011331868i[NGUI ] ips = 63.639M
+25074894111i[NGUI ] ips = 63.562M
+25138295738i[NGUI ] ips = 63.402M
+25201858745i[NGUI ] ips = 63.563M
+25265327815i[NGUI ] ips = 63.469M
+25328860040i[NGUI ] ips = 63.532M
+25392384715i[NGUI ] ips = 63.525M
+25455934820i[NGUI ] ips = 63.550M
+25519560930i[NGUI ] ips = 63.626M
+25583066895i[NGUI ] ips = 63.506M
+25646684505i[NGUI ] ips = 63.618M
+25710170084i[NGUI ] ips = 63.486M
+25773538043i[NGUI ] ips = 63.368M
+25837038902i[NGUI ] ips = 63.501M
+25899835233i[NGUI ] ips = 62.796M
+25960040814i[NGUI ] ips = 60.206M
+26020125772i[NGUI ] ips = 60.085M
+26081604190i[NGUI ] ips = 61.478M
+26143275921i[NGUI ] ips = 61.672M
+26205359467i[NGUI ] ips = 62.084M
+26263333493i[NGUI ] ips = 57.974M
+26326193941i[NGUI ] ips = 62.860M
+26389580927i[NGUI ] ips = 63.387M
+26453023435i[NGUI ] ips = 63.443M
+26516317522i[NGUI ] ips = 63.294M
+26579904222i[NGUI ] ips = 63.587M
+26642775669i[NGUI ] ips = 62.871M
+26704413433i[NGUI ] ips = 61.638M
+26766448886i[NGUI ] ips = 62.035M
+26828167578i[NGUI ] ips = 61.719M
+26889824487i[NGUI ] ips = 61.657M
+26951683806i[NGUI ] ips = 61.859M
+27013601051i[NGUI ] ips = 61.917M
+27075665617i[NGUI ] ips = 62.065M
+27137790033i[NGUI ] ips = 62.124M
+27198676319i[NGUI ] ips = 60.886M
+27259245425i[NGUI ] ips = 60.569M
+27321059169i[NGUI ] ips = 61.814M
+27384221079i[NGUI ] ips = 63.162M
+27447302519i[NGUI ] ips = 63.081M
+27510389748i[NGUI ] ips = 63.087M
+27573754719i[NGUI ] ips = 63.365M
+27636965358i[NGUI ] ips = 63.211M
+27699795628i[NGUI ] ips = 62.830M
+27762871799i[NGUI ] ips = 63.076M
+27826116782i[NGUI ] ips = 63.245M
+27889558856i[NGUI ] ips = 63.442M
+27953005200i[NGUI ] ips = 63.446M
+28013131741i[NGUI ] ips = 60.127M
+28074710263i[NGUI ] ips = 61.579M
+28137177482i[NGUI ] ips = 62.467M
+28200039213i[NGUI ] ips = 62.862M
+28263084811i[NGUI ] ips = 63.046M
+28326619743i[NGUI ] ips = 63.535M
+28390031413i[NGUI ] ips = 63.412M
+28453536981i[NGUI ] ips = 63.506M
+28516128286i[NGUI ] ips = 62.591M
+28579552124i[NGUI ] ips = 63.424M
+28643021950i[NGUI ] ips = 63.470M
+28706495298i[NGUI ] ips = 63.473M
+28769984478i[NGUI ] ips = 63.489M
+28833216960i[NGUI ] ips = 63.232M
+28896315122i[NGUI ] ips = 63.098M
+28959719676i[NGUI ] ips = 63.405M
+29022947031i[NGUI ] ips = 63.227M
+29086450652i[NGUI ] ips = 63.504M
+29149965384i[NGUI ] ips = 63.515M
+29213486564i[NGUI ] ips = 63.521M
+29276917782i[NGUI ] ips = 63.431M
+29340296548i[NGUI ] ips = 63.379M
+29403625405i[NGUI ] ips = 63.329M
+29467068817i[NGUI ] ips = 63.443M
+29530474826i[NGUI ] ips = 63.406M
+29593918193i[NGUI ] ips = 63.443M
+29657402732i[NGUI ] ips = 63.485M
+29720701915i[NGUI ] ips = 63.299M
+29783836447i[NGUI ] ips = 63.135M
+29847318042i[NGUI ] ips = 63.482M
+29910840670i[NGUI ] ips = 63.523M
+29974149428i[NGUI ] ips = 63.309M
+30037465907i[NGUI ] ips = 63.316M
+30100859784i[NGUI ] ips = 63.394M
+30164327972i[NGUI ] ips = 63.468M
+30227632918i[NGUI ] ips = 63.305M
+30290616308i[NGUI ] ips = 62.983M
+30354168331i[NGUI ] ips = 63.552M

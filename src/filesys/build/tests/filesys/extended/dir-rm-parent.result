@@ -1,0 +1,6 @@
+FAIL
+Kernel panic in run: PANIC at ../../filesys/inode.c:258 in inode_close(): REACH HERE
+Call stack: 0xc0029e16 0x6c635f65d
+Translation of call stack:
+0xc0029e16: debug_panic (.../../lib/kernel/debug.c:38)
+0x6c635f65d: (unknown)

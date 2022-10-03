@@ -1,0 +1,50 @@
+Copying tests/filesys/extended/dir-rm-tree to scratch partition...
+Copying tests/filesys/extended/tar to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/iYYyIRfNsL.dsk -hdb tmp.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading.............
+Kernel command line: -q -f extract run dir-rm-tree
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  402,636,800 loops/s.
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 215 sectors (107 kB), Pintos OS kernel (20)
+hda2: 256 sectors (128 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+lock inited
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'dir-rm-tree' into the file system...
+Putting 'tar' into the file system...
+Erasing ustar archive...
+Executing 'dir-rm-tree':
+(dir-rm-tree) begin
+(dir-rm-tree) creating /0/0/0/0 through /3/2/2/3...
+(dir-rm-tree) open "/0/2/0/3"
+(dir-rm-tree) close "/0/2/0/3"
+(dir-rm-tree) removing /0/0/0/0 through /3/2/2/3...
+Kernel PANIC at ../../filesys/inode.c:258 in inode_close(): REACH HERE
+
+Call stack: 0xc0029e16 0x6c635f65dir-rm-tree: exit(-1)
+Execution of 'dir-rm-tree' complete.
+Files in the root directory:
+dir-rm-tree
+tar
+0
+1
+2
+3
+End of listing.
+Timer: 89 ticks
+Thread: 16 idle ticks, 59 kernel ticks, 14 user ticks
+hdb1 (filesys): 816 reads, 768 writes
+hda2 (scratch): 255 reads, 2 writes
+Console: 1345 characters output
+Keyboard: 0 keys pressed
+Exception: 1 page faults
+Powering off...
